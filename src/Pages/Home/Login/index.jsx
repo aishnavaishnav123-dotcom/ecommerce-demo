@@ -10,7 +10,7 @@ const Login = () => {
 
   const handleLogin = async () => {
     try {
-      const res = await fetch("http://localhost:5050/api/auth/login", {
+      const res = await fetch("https://ecommerce-backend-1-szbm.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -47,7 +47,7 @@ const Login = () => {
 
   const testBackend = async () => {
     try {
-      const res = await fetch("http://localhost:5050/");
+      const res = await fetch("https://ecommerce-backend-1-szbm.onrender.com");
       const data = await res.text();
       alert(data);
     } catch (error) {

@@ -22,7 +22,7 @@ const CheckoutPage = () => {
   try {
     const token = localStorage.getItem("token");
 
-    const res = await fetch("http://localhost:5050/api/orders", {
+    const res = await fetch("https://ecommerce-backend-1-szbm.onrender.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

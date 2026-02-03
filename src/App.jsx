@@ -4,6 +4,7 @@ import UserLayout from "./layouts/UserLayout";
 import ProductOwnerLayout from "./layouts/ProductOwnerLayout";
 
 import Home from "./Pages/Home";
+
 import ProductDetails from "./Pages/Home/ProductDetails";
 import Login from "./Pages/Home/Login";
 import Register from "./Pages/Home/Register";
@@ -40,9 +41,10 @@ function App() {
   <Route path="products" element={<Products />} />
 
 </Route>
-
+ 
 
       </Routes>
+     
     </BrowserRouter>
   );
 }

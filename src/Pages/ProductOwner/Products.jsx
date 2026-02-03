@@ -11,7 +11,7 @@ const Products = () => {
         const token = localStorage.getItem("token");
 
         const res = await fetch(
-          "http://localhost:5050/api/products/my-products",
+          "https://ecommerce-backend-1-szbm.onrender.com",
           {
             headers: {
               Authorization: `Bearer ${token}`,
