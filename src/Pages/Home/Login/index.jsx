@@ -10,7 +10,7 @@ const Login = () => {
 
   const handleLogin = async () => {
     try {
-      const res = await fetch("https://ecommerce-backend-1-szbm.onrender.com", {
+      const res = await fetch("https://ecommerce-backend-1-szbm.onrender.com/api/auth/login ", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
